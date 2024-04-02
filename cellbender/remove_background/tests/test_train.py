@@ -12,7 +12,7 @@ from cellbender.remove_background.run import get_optimizer
 from cellbender.remove_background.data.dataprep import prep_sparse_data_for_training \
     as prep_data_for_training
 from cellbender.remove_background.train import train_epoch, evaluate_epoch
-from .conftest import USE_CUDA
+from cellbender.remove_background.tests.conftest import USE_CUDA
 
 
 @pytest.mark.parametrize('cuda',

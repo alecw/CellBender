@@ -15,7 +15,7 @@ from cellbender.remove_background.estimation import Mean
 import warnings
 from typing import Dict, Union
 
-from .conftest import sparse_matrix_equal, simulated_dataset, tensors_equal
+from cellbender.remove_background.tests.conftest import sparse_matrix_equal, simulated_dataset, tensors_equal
 
 
 USE_CUDA = torch.cuda.is_available()

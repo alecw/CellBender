@@ -4,7 +4,7 @@ import pytest
 import scipy.sparse as sp
 import numpy as np
 
-from .conftest import sparse_matrix_equal
+from cellbender.remove_background.tests.conftest import sparse_matrix_equal
 
 
 @pytest.mark.skip

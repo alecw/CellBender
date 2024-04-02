@@ -9,7 +9,7 @@
 # from cellbender.remove_background.infer import BasePosterior, Posterior, \
 #     binary_search, dense_to_sparse_op_torch, dense_to_sparse_op_numpy
 #
-# from .conftest import sparse_matrix_equal, simulated_dataset, tensors_equal
+# from cellbender.remove_background.tests.conftest import sparse_matrix_equal, simulated_dataset, tensors_equal
 #
 #
 # USE_CUDA = torch.cuda.is_available()

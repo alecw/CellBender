@@ -8,7 +8,7 @@ import torch
 from cellbender.remove_background.data.dataprep import DataLoader
 from cellbender.remove_background.sparse_utils import dense_to_sparse_op_torch
 
-from .conftest import sparse_matrix_equal, simulated_dataset
+from cellbender.remove_background.tests.conftest import sparse_matrix_equal, simulated_dataset
 
 
 USE_CUDA = torch.cuda.is_available()

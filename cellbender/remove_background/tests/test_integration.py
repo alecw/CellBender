@@ -8,7 +8,7 @@ import numpy as np
 import os
 import pytest
 
-from .conftest import USE_CUDA
+from cellbender.remove_background.tests.conftest import USE_CUDA
 
 
 @pytest.mark.parametrize('cuda',

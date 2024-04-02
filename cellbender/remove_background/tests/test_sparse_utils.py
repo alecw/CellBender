@@ -7,7 +7,7 @@ from cellbender.remove_background.sparse_utils import todense_fill, \
     csr_set_rows_to_zero, dense_to_sparse_op_torch, log_prob_sparse_to_dense, \
     overwrite_matrix_with_columns_from_another
 from cellbender.remove_background.data.dataprep import DataLoader
-from .conftest import sparse_matrix_equal
+from cellbender.remove_background.tests.conftest import sparse_matrix_equal
 
 
 USE_CUDA = torch.cuda.is_available()

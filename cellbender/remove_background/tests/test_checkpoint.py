@@ -21,7 +21,7 @@ from cellbender.remove_background.data.dataprep import prep_sparse_data_for_trai
 from cellbender.remove_background.model import RemoveBackgroundPyroModel
 from cellbender.remove_background.data.dataset import SingleCellRNACountsDataset
 from cellbender.remove_background.run import run_inference
-from .conftest import USE_CUDA
+from cellbender.remove_background.tests.conftest import USE_CUDA
 
 import os
 import argparse
